@@ -1,0 +1,59 @@
+<!-- views/index.ejs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1><%= title %></h1>
+  <p><%= subtitle %></p>
+  <table>
+    <thead>
+      <tr>
+        <th>ID#</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>References</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for (const term of terms) { %>
+        <tr>
+          <td><%= term.id %></td>
+          <td><%= term.term %></td>
+          <td><%= term.description %></td>
+          <td><%= term.references %></td>
+        </tr>
+      <% } %>
+    </tbody>
+  </table>
+</body>
+</html>
