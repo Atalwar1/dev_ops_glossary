@@ -132,6 +132,67 @@ var termsData = [
   description: 'Fault tolerance refers to the capacity of a system to effectively manage and withstand breakdowns without experiencing a total collapse.',
   references:'Bala, Anju & Chana, Inderveer. (2012). Fault Tolerance-Challenges, Techniques and Implementation in Cloud Computing. International Journal of Computer Science Issues. 9. ',
 }
+,
+  {
+    id: 21,
+    term: 'Azure Kubernetes Service (AKS)',
+    description: 'Managed Kubernetes container orchestration service provided by Azure.',
+    references:'Managed kubernetes service (AKS): Microsoft azure (no date) Managed Kubernetes Service (AKS) | Microsoft Azure. Available at: https://azure.microsoft.com/en-us/products/kubernetes-service/ (Accessed: 10 September 2023). ',
+  },
+  {
+    id: 22,
+    term: 'Azure DevOps',
+    description: 'A set of development tools and services for software development, including CI/CD (Continuous Integration/Continuous Deployment) pipelines.',
+    references:'Azure Devops Services: Microsoft Azure (no date) Services | Microsoft Azure. Available at: https://azure.microsoft.com/en-us/products/devops/ (Accessed: 10 September 2023). ',
+  },
+  {
+    id: 23,
+    term: 'Azure Functions',
+    description: 'Serverless compute service in Azure that allows you to run event-driven code without managing infrastructure.',
+    references:'Azure functions – serverless functions in computing: Microsoft Azure (no date) – Serverless Functions in Computing | Microsoft Azure. Available at: https://azure.microsoft.com/en-us/products/functions/ (Accessed: 10 September 2023). ',
+  },
+  {
+    id: 24,
+    term: 'Docker Volume',
+    description: ' A way to manage data persistence in Docker containers by creating a mountable storage volume.',
+    references:'Volumes (2023) Docker Documentation. Available at: https://docs.docker.com/storage/volumes/ (Accessed: 10 September 2023). ',
+  },
+  {
+    id: 25,
+    term: 'Dockerfile',
+    description: 'A script used to create a Docker image. It specifies the base image, application code, dependencies, and configuration. ',
+    references:'Dockerfile reference (2023) Docker Documentation. Available at: https://docs.docker.com/engine/reference/builder/ (Accessed: 10 September 2023). ',
+  },
+  {
+    id: 26,
+    term: 'Docker Registry',
+    description: 'A repository for storing and distributing Docker images, such as Docker Hub or Azure Container Registry. ',
+    references:'Docker Registry (2023) Docker Documentation. Available at: https://docs.docker.com/registry/ (Accessed: 10 September 2023). ',
+  },
+  {
+    id: 27,
+    term: 'Azure Logic Apps',
+    description: 'Service for creating workflows and automating tasks using a visual designer.',
+    references:'Logic App Service – ipaas: Microsoft azure (no date) Logic App Service – IPaaS | Microsoft Azure. Available at: https://azure.microsoft.com/en-us/products/logic-apps/ (Accessed: 10 September 2023). ',
+  },
+  {
+    id: 28,
+    term: 'Azure Virtual Machines (VMs)',
+    description: ' On-demand scalable virtual machines in the Azure cloud, allowing you to run various operating systems and applications.',
+    references:'Virtual Machines (VMS) for linux and windows: Microsoft azure (no date) (VMs) for Linux and Windows | Microsoft Azure. Available at: https://azure.microsoft.com/en-us/products/virtual-machines/ (Accessed: 10 September 2023). ',
+  },
+  {
+    id: 29,
+    term: 'Docker Compose',
+    description: 'Tool for defining and running multi-container Docker applications using a single configuration file',
+    references:'Docker compose Overview (2023) Docker Documentation. Available at: https://docs.docker.com/compose/ (Accessed: 10 September 2023). ',
+  },
+  {
+    id: 30,
+    term: ' Docker Swarm',
+    description: 'A native clustering and orchestration solution for Docker, used to manage a cluster of Docker nodes',
+    references:'Swarm mode overview (2023) Docker Documentation. Available at: https://docs.docker.com/engine/swarm/ (Accessed: 10 September 2023).',
+  }
 ];
 
 router.get('/', function(req, res, next) {
