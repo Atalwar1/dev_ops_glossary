@@ -192,6 +192,75 @@ var termsData = [
     term: ' Docker Swarm',
     description: 'A native clustering and orchestration solution for Docker, used to manage a cluster of Docker nodes',
     references:'Swarm mode overview (2023) Docker Documentation. Available at: https://docs.docker.com/engine/swarm/ (Accessed: 10 September 2023).',
+  },
+  ,
+  {
+    id: 31,
+    term: ' Azure Virtual Machine (VM)',
+    description: 'An Azure Virtual Machine (VM) is a scalable and flexible computing resource in Microsoft Azure, providing on-demand virtualized hardware for running applications.',
+    references:'Microsoft Azure. (2023). Virtual Machines. Retrieved from https://azure.microsoft.com/en-us/services/virtual-machines/',
+  }
+  ,
+  {
+    id: 32,
+    term: 'Kubernetes Namespace',
+    description: 'A Kubernetes Namespace is a logical partition within a Kubernetes cluster that provides scope and isolation for resources and objects.',
+    references:' Kubernetes. (2023). Namespaces. Retrieved from https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/',
+  }
+  ,
+  {
+    id: 33,
+    term: 'Terraform State File',
+    description: 'The Terraform State File is a JSON file that stores the current state of the managed infrastructure, allowing Terraform to plan and apply changes incrementally.',
+    references:'HashiCorp. (2023). State. Retrieved from https://www.terraform.io/docs/state/index.html',
+  },
+  {
+    id: 34,
+    term: 'Cloud-Native Architecture',
+    description: 'Cloud-Native Architecture is an approach to software development that leverages cloud computing principles, emphasizing microservices, containerization, and scalability.',
+    references:'The New Stack. (2023). What is Cloud-Native? Retrieved from https://thenewstack.io/what-is-cloud-native/',
+  }
+  ,
+  {
+    id: 35,
+    term: 'Azure App Service',
+    description: 'Azure App Service is a fully managed platform for building, deploying, and scaling web apps, mobile apps, and API apps using various programming languages.',
+    references:'Microsoft Azure. (2023). App Service. Retrieved from https://azure.microsoft.com/en-us/services/app-service/',
+  }
+  ,
+  {
+    id: 36,
+    term: 'Kubernetes Pod',
+    description: 'A Kubernetes Pod is the smallest deployable unit in Kubernetes, representing a single instance of a running process in a cluster.',
+    references:'Kubernetes. (2023). Pods. Retrieved from https://kubernetes.io/docs/concepts/workloads/pods/',
+  }
+  ,
+  {
+    id: 37,
+    term: 'Terraform Provider',
+    description: 'A Terraform Provider is an extension used to interact with specific services or resource types in various cloud providers, allowing Terraform to manage those resources.',
+    references:' HashiCorp. (2023). Providers. Retrieved from https://www.terraform.io/docs/language/providers/index.html',
+  }
+  ,
+  {
+    id: 38,
+    term: 'Cloud Computing Service Models',
+    description: 'Cloud Computing Service Models refer to the various ways cloud services are delivered, including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).',
+    references:'TechTarget. (2023). Cloud service models. Retrieved from https://searchcloudcomputing.techtarget.com/definition/Cloud-service-models',
+  }
+  ,
+  {
+    id: 39,
+    term: 'Azure Resource Group',
+    description: 'An Azure Resource Group is a logical container for Azure resources, used to manage and organize related resources.',
+    references:'Microsoft Azure. (2023). Resource Groups. Retrieved from https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview',
+  }
+  ,
+  {
+    id: 40,
+    term: 'Kubernetes Horizontal Pod Autoscaler (HPA)',
+    description: 'A Kubernetes Horizontal Pod Autoscaler (HPA) is a resource that automatically adjusts the number of pods in a deployment or replica set based on resource utilization or custom metrics.',
+    references:' Kubernetes. (2023). Horizontal Pod Autoscaler. Retrieved from https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/',
   }
 ];
 
