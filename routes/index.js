@@ -262,6 +262,67 @@ var termsData = [
     description: 'A Kubernetes Horizontal Pod Autoscaler (HPA) is a resource that automatically adjusts the number of pods in a deployment or replica set based on resource utilization or custom metrics.',
     references:' Kubernetes. (2023). Horizontal Pod Autoscaler. Retrieved from https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/',
   }
+  ,
+  {
+    id: 41,
+    term: 'Serverless Computing',
+    description: 'Serverless Computing is a cloud computing model where the cloud provider manages the infrastructure, allowing developers to focus solely on writing code for their applications. It eliminates the need to provision or manage servers manually.',
+    references: 'Microsoft Azure. (2023). Serverless computing. Retrieved from https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-serverless-computing/'
+  },
+  {
+    id: 42,
+    term: 'Serverless Function',
+    description: 'A Serverless Function, often referred to as a function-as-a-service (FaaS), is a small, single-purpose piece of code that is executed in response to an event trigger. It is a fundamental component of serverless computing architectures.',
+    references: 'AWS. (2023). AWS Lambda. Retrieved from https://aws.amazon.com/lambda/'
+  },
+  {
+    id: 43,
+    term: 'Continuous Monitoring',
+    description: 'Continuous Monitoring is a practice of regularly and automatically observing and assessing the health, performance, and security of systems and applications. It helps detect issues and vulnerabilities in real-time.',
+    references: 'NIST. (2023). Continuous Monitoring. Retrieved from https://csrc.nist.gov/guidance/ssp/800-137'
+  },
+  {
+    id: 44,
+    term: 'Natural Language Processing (NLP)',
+    description: 'Natural Language Processing (NLP) is a subfield of artificial intelligence (AI) that focuses on the interaction between computers and human language. It involves the development of algorithms and models for understanding and processing human language.',
+    references: 'Jurafsky, D., & Martin, J. H. (2020). Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition. Pearson.'
+  },
+  {
+    id: 45,
+    term: 'Container Registry',
+    description: 'A Container Registry is a storage system that hosts and manages Docker containers and related artifacts. It provides a centralized location for storing, sharing, and distributing container images.',
+    references: 'Docker. (2023). Docker Container Registry. Retrieved from https://docs.docker.com/samples/container_registry/'
+  },
+  {
+    id: 46,
+    term: 'Containerization',
+    description: 'Containerization is a lightweight form of virtualization that allows applications and their dependencies to be packaged into containers. Containers provide consistency and isolation, making it easier to deploy and run applications across different environments.',
+    references: 'Red Hat. (2023). What Is Containerization? Retrieved from https://www.redhat.com/en/topics/cloud-native-apps/what-is-containerization'
+  },
+  {
+    id: 47,
+    term: 'Artificial Intelligence (AI)',
+    description: 'Artificial Intelligence (AI) is a branch of computer science that focuses on creating systems and machines capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, and natural language understanding.',
+    references: 'Russell, S. J., & Norvig, P. (2021). Artificial Intelligence: A Modern Approach. Pearson.'
+  },
+  {
+    id: 48,
+    term: 'Machine Learning Model',
+    description: 'A Machine Learning Model is a mathematical representation of a real-world process or system. It is created through the training of machine learning algorithms and can be used for making predictions or classifications based on new data.',
+    references: 'Géron, A. (2019). Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow. O`Reilly Media.'
+  },
+  {
+    id: 49,
+    term: 'Cloud Native',
+    description: 'Cloud Native refers to an approach in software development that leverages cloud computing services and technologies to build and deploy applications. Cloud-native applications are designed to be scalable, resilient, and highly adaptable to cloud environments.',
+    references: 'Pivotal. (2023). What is Cloud Native? Retrieved from https://www.vmware.com/cloud-native-apps/what-is-cloud-native.html'
+  },
+  {
+    id: 50,
+    term: 'Continuous Integration/Continuous Deployment (CI/CD)',
+    description: 'Continuous Integration (CI) and Continuous Deployment (CD) are software development practices that involve automating the building, testing, and deployment of code changes. CI/CD pipelines help teams deliver software updates quickly and reliably.',
+    references: 'Fowler, M. (2006). Continuous Integration. Retrieved from https://martinfowler.com/articles/continuousIntegration.html'
+  }
 ];
 
 router.get('/', function(req, res, next) {
