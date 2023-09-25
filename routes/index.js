@@ -62,7 +62,76 @@ var termsData = [
     term: 'cloud vendor',
     description: 'A cloud service provider (CSP) refers to an information technology (IT) organization that offers internet-based, scalable computing resources such as processing power, data storage, and applications on a flexible, as-needed basis.',
     references:'Ashley, D. (2021) Books - proquest. Available at: https://about.proquest.com/en/content-solutions/books/ (Accessed: 24 August 2023). ',
-  }
+  },
+  {
+  id: 11,
+  term: 'Docker',
+  description: 'service packaging and deployment system',
+  references:'Ashley, D. (2021) Books - proquest. Available at: https://about.proquest.com/en/content-solutions/books/ (Accessed: 24 August 2023). ',
+}
+,
+{
+  id: 12,
+  term: 'Docker Compose',
+  description: 'used our development station to test our microservices application',
+  references:'Ashley, D. (2021) Books - proquest. Available at: https://about.proquest.com/en/content-solutions/books/ (Accessed: 24 August 2023). ',
+}
+,
+{
+  id: 13,
+  term: 'Terraform',
+  description: 'To build our cloud infrastructure, our Kubernetes cluster, and to launch our application.',
+  references:'Ashley, D. (2021) Books - proquest. Available at: https://about.proquest.com/en/content-solutions/books/ (Accessed: 24 August 2023). ',
+}
+,
+{
+  id: 14,
+  term: 'loosely coupled',
+  description: 'The concept of loose coupling refers to a state in which there is low interdependence and information sharing across services, hence promoting strong cohesiveness.',
+  references:'Ashley, D. (2021) Books - proquest. Available at: https://about.proquest.com/en/content-solutions/books/ (Accessed: 24 August 2023). ',
+}
+,
+{
+  id: 15,
+  term: 'domain driven design',
+  description: 'Domain-Driven Design (DDD) is a software development approach that places emphasis on the construction of a domain model, which possesses a comprehensive comprehension of the procedures and regulations inside a given domain.',
+  references:'Evans, E. and Fowler, M. (2019) Domain-driven design tackling complexity in the heart of software. Upper Saddle River, NJ: Addison-Wesley.',
+}
+,
+{
+  id: 16,
+  term: 'distributed computing',
+  description: 'Distributed computing is a term used to describe the practice of connecting multiple computers in a network to collaboratively perform computing tasks. The primary aim of distributed computing is to distribute and allocate tasks among several computer systems.  ',
+  references:'Khan, Rafiqul Zaman. (2015). Distributed Computing: An Overview. Int. J. Advanced Networking and Applications. 07. 2630-2635.',
+}
+,
+{
+  id: 17,
+  term: 'load balancer',
+  description: 'A load balancer refers to a specialized device or server that functions as an intermediary between clients and service instances, effectively distributing requests based on a predetermined algorithm.',
+  references:'Wang, Hao & Wang, Yong & Liang, Guanying & Gao, Yunfan & Gao, Weijian & Zhang, Wenping. (2021). Research on load balancing technology for microservice architecture. MATEC Web of Conferences. 336. 08002. 10.1051/matecconf/202133608002.',
+}
+,
+{
+  id: 18,
+  term: 'spaghetti code',
+  description: 'The term "spaghetti code" is a derogatory phrase commonly used in the field of information technology. It arises due to various factors such as an unclear project scope, insufficient experience and planning, an inability to adhere to programming style guidelines, and a cumulative effect of seemingly minor errors that gradually degrade the efficiency of the code over time.',
+  references:'Meerbaum-Salant, O. (2022) Spaghetti for the main course? observations on naturalness of scenario-based programming, Proceedings of the 17th ACM annual conference on Innovation and technology in computer science education. Available at: https://www.academia.edu/69919858/Spaghetti_for_the_Main_Course_Observations_on_Naturalness_of_Scenario_Based_Programming (Accessed: 24 August 2023). ',
+}
+,
+{
+  id: 19,
+  term: 'ubiquitous',
+  description: 'Ubiquitous computing, alternatively referred to as "pervasive computing," encompasses the integration of computing capabilities into commonplace things and settings within the realm of computer science and technology. This integration facilitates smooth interaction and communication among these objects, as well as between these objects and individuals. The objective of ubiquitous computing is to establish an environment in which computer is seamlessly incorporated into our surroundings, rendering it inconspicuous and facilitating uninterrupted and nonintrusive access to information and services.',
+  references:'Weiser, M. (1991). The Computer for the 21st Century. Scientific American, 265(3), 94-104.',
+}
+,
+{
+  id: 20,
+  term: 'fault-tolerant',
+  description: 'Fault tolerance refers to the capacity of a system to effectively manage and withstand breakdowns without experiencing a total collapse.',
+  references:'Bala, Anju & Chana, Inderveer. (2012). Fault Tolerance-Challenges, Techniques and Implementation in Cloud Computing. International Journal of Computer Science Issues. 9. ',
+}
 ];
 
 router.get('/', function(req, res, next) {
